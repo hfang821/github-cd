@@ -12,7 +12,7 @@ jobs:
     #comes from github actions
       - uses: actions/checkout@v2
       #comes from a heroku deployed action
-      - uses: akhileshns/heroku-deploy@v3.12.11
+      - uses: hfang821/heroku-deploy@v3.12.11
       #required parameters
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
